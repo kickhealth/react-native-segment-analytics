@@ -221,8 +221,8 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
                     "$(inherited)",
-                    "$(SRCROOT)/../node_modules/react-native/React/**",
-                    "$(SRCROOT)/../node_modules/react-native/Libraries/**",
+                    "$(SRCROOT)/../../react-native/React/**",
+                    "$(SRCROOT)/../../../ios/**",
                 );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -235,8 +235,8 @@
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
                     "$(inherited)",
-                    "$(SRCROOT)/../node_modules/react-native/React/**",
-                    "$(SRCROOT)/../node_modules/react-native/Libraries/**",
+                    "$(SRCROOT)/../../react-native/React/**",
+                    "$(SRCROOT)/../../../ios/**",
                 );
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
