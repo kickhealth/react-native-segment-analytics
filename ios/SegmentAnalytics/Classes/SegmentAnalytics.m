@@ -3,7 +3,13 @@
 //
 
 #import "SegmentAnalytics.h"
+
+#if __has_include(<React/RCTAssert.h>)
+#import <React/RCTConvert.h>
+#else
 #import "RCTConvert.h"
+#endif
+
 #import <Analytics/SEGAnalytics.h>
 #import <Foundation/Foundation.h>
 
